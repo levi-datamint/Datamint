@@ -20,7 +20,6 @@ export const PrivacyPolicy: React.FC = () => {
         <ul className="list-disc pl-6 mb-6 space-y-2">
           <li>Contact information (name, email address, phone number)</li>
           <li>Business information (company name, financial data for collections processing)</li>
-          <li>Login credentials (username and password)</li>
           <li>Payment information (credit card details, billing address)</li>
         </ul>
 
