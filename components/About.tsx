@@ -44,10 +44,9 @@ export const About: React.FC = () => {
         <h2 className="text-3xl font-bold text-gray-900 mb-12">Meet the Leadership</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
            {[
-             { name: "Sarah Chen", role: "CEO & Co-Founder" },
-             { name: "David Miller", role: "CTO" },
-             { name: "Jessica Alverez", role: "Head of Product" },
-             { name: "Marcus Johnson", role: "Head of Sales" },
+             { name: "Itay Weinberger", role: "CEO & Co-Founder" },
+             { name: "Levi Fichman", role: "CTO" },
+             { name: "Daniel", role: "Head of Sales" },
            ].map((person, i) => (
              <div key={i} className="bg-white p-6 rounded-xl shadow-sm">
                <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4"></div>
