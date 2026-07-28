@@ -1,11 +1,12 @@
 'use client';
 import { useState } from 'react';
 
-/* Where the form sends to.
-   Empty string -> opens a pre-filled email in the visitor's own mail client.
-   Set to a Formspree/HubSpot/webhook URL to POST JSON instead.
-   On Vercel you can also point this at a route handler, e.g. '/api/demo'. */
-const FORM_ENDPOINT = '';
+/* Submissions POST to our own serverless route (app/api/demo/route.js),
+   which relays them to itay@datamint.biz via Resend — see that file for the
+   one-time setup (RESEND_API_KEY). If the request fails for any reason
+   (key not configured yet, network hiccup), the catch block below falls
+   back to a mailto: draft so no lead is silently lost. */
+const FORM_ENDPOINT = '/api/demo';
 const FALLBACK_EMAIL = 'itay@datamint.biz';
 
 const RULES = {
