@@ -360,6 +360,15 @@
      Sized to sit at the same optical weight as the real logos beside it. */
   .cust .ctext{font-family:var(--font-d); font-size:1.22rem; font-weight:800; color:var(--ink);
     letter-spacing:-.025em; text-align:center; line-height:1.25}
+  /* Icon-only marks (Smartup ships a square app icon, no wordmark) get paired
+     with the company name so they read the same as the full lockups beside them. */
+  .lockup{display:inline-flex; align-items:center; gap:.55rem}
+  .lockup img{border-radius:7px; display:block; flex-shrink:0}
+  .lockup .ln{font-family:var(--font-d); font-weight:800; color:var(--ink); letter-spacing:-.022em; white-space:nowrap}
+  .logo .lockup img{width:28px; height:28px}
+  .logo .lockup .ln{font-size:1.02rem}
+  .cust .lockup img{width:34px; height:34px}
+  .cust .lockup .ln{font-size:1.12rem}
   .cust .lm{width:auto; display:block}
   .cust .lm .mk{fill:var(--mk)}
   .cust .lm .wm{fill:var(--ink)}

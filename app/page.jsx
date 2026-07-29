@@ -84,7 +84,7 @@ export default function Home() {
               <div className="logo"><span className="lmk"><LcLogo /></span><span className="ls">Cargo &amp; Logistics</span></div>
               <div className="logo"><span className="lmk"><AniviewLogo /></span><span className="ls">Ad Tech</span></div>
               <div className="logo"><span className="lmk lmk-plate"><PsaLogo /></span><span className="ls">Accounting Firm</span></div>
-              <div className="logo"><span className="lw">Smartup Academy</span><span className="ls">Education</span></div>
+              <div className="logo"><span className="lmk"><span className="lockup"><img src="/smartup.png" alt="" width="108" height="108" loading="lazy" decoding="async" /><span className="ln">Smartup Academy</span></span></span><span className="ls">Education</span></div>
               <div className="logo"><span className="lw">BW CFO</span><span className="ls">CFO Services</span></div>
             </div>
           </div>
@@ -234,7 +234,7 @@ export default function Home() {
               <div className="cust reveal"><span className="clg"><LcLogo /></span></div>
               <div className="cust reveal"><span className="clg"><AniviewLogo /></span></div>
               <div className="cust reveal"><span className="clg lmk-plate"><PsaLogo /></span></div>
-              <div className="cust reveal"><span className="ctext">Smartup Academy</span></div>
+              <div className="cust reveal"><span className="clg"><span className="lockup"><img src="/smartup.png" alt="Smartup Academy" width="108" height="108" loading="lazy" decoding="async" /><span className="ln">Smartup Academy</span></span></span></div>
               <div className="cust reveal"><span className="ctext">BW CFO</span></div>
             </div>
           </div>
