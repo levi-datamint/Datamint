@@ -79,7 +79,7 @@ export async function POST(request) {
         from: FROM_EMAIL,
         to: [TO_EMAIL],
         reply_to: email,
-        subject: `Demo request — ${company}`,
+        subject: 'Lead From The Website',
         html,
       }),
     });
