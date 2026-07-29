@@ -84,6 +84,8 @@ export default function Home() {
               <div className="logo"><span className="lmk"><LcLogo /></span><span className="ls">Cargo &amp; Logistics</span></div>
               <div className="logo"><span className="lmk"><AniviewLogo /></span><span className="ls">Ad Tech</span></div>
               <div className="logo"><span className="lmk lmk-plate"><PsaLogo /></span><span className="ls">Accounting Firm</span></div>
+              <div className="logo"><span className="lw">Smartup Academy</span><span className="ls">Education</span></div>
+              <div className="logo"><span className="lw">BW CFO</span><span className="ls">CFO Services</span></div>
             </div>
           </div>
         </section>
@@ -232,6 +234,8 @@ export default function Home() {
               <div className="cust reveal"><span className="clg"><LcLogo /></span></div>
               <div className="cust reveal"><span className="clg"><AniviewLogo /></span></div>
               <div className="cust reveal"><span className="clg lmk-plate"><PsaLogo /></span></div>
+              <div className="cust reveal"><span className="ctext">Smartup Academy</span></div>
+              <div className="cust reveal"><span className="ctext">BW CFO</span></div>
             </div>
           </div>
         </section>
