@@ -19,6 +19,15 @@ export function LcLogo() {
   );
 }
 
+export function BwLogo() {
+  return (
+    <>
+      <img className="lm lm-bw bw-l" src="/bw-light.png" alt="Baron Weinberger" width="527" height="96" loading="lazy" decoding="async" />
+      <img className="lm lm-bw bw-d" src="/bw-dark.png" alt="Baron Weinberger" width="527" height="96" loading="lazy" decoding="async" />
+    </>
+  );
+}
+
 export function PsaLogo() {
   return (
     <img className="lm lm-psa" src="/psa.png" alt="Philip Stein & Associates" width="173" height="60" loading="lazy" decoding="async" />

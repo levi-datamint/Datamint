@@ -215,8 +215,13 @@
   .lm-aniview{height:30px}
   .lm-psa{height:29px}
   .lm-lc{height:25px}
+  .lm-bw{height:26px}
   .logo .lc-l{display:var(--logo-light)}
   .logo .lc-d{display:var(--logo-dark)}
+  /* Baron Weinberger's artwork is flat black, invisible on our dark ground,
+     so it ships as two recoloured variants swapped by theme. */
+  .logo .bw-l{display:var(--logo-light)}
+  .logo .bw-d{display:var(--logo-dark)}
   /* Philip Stein's mark is a navy disc with the "A" knocked out of it in white,
      so the navy cannot be lightened for dark mode without erasing the letter
      (navy on our dark ground is only 1.3:1). On dark it keeps its true colours
@@ -374,10 +379,13 @@
   .cust .lm .wm{fill:var(--ink)}
   .cust .lc-l{display:var(--logo-light)}
   .cust .lc-d{display:var(--logo-dark)}
+  .cust .bw-l{display:var(--logo-light)}
+  .cust .bw-d{display:var(--logo-dark)}
   .cust .lm-visitt{height:30px}
   .cust .lm-aniview{height:33px}
   .cust .lm-lc{height:28px}
   .cust .lm-psa{height:36px}
+  .cust .lm-bw{height:30px}
 
   /* ---------- FINAL CTA ---------- */
   .final .box{background:linear-gradient(165deg, #0D3227, #124033 55%, #0C2A21); border:1px solid rgba(255,255,255,.09); border-radius:24px;
